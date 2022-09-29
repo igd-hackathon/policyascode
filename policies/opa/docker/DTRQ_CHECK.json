@@ -1,0 +1,17 @@
+{
+    "name": "Baseimage",
+    "file": "Baseimage.rego",
+    "policy_type": "docker",
+    "resource_type": "docker_from",
+    "template_args": {
+        "prefix": "",
+        "suffix": "",
+        "name": "Baseimage"
+    },
+    "severity": "HIGH",
+    "description": "Ensure Base Image Name Contains DTRQ",
+    "reference_id": "DTRQ_CHECK",
+    "category": "Infrastructure Security",
+    "id": "DTRQ_CHECK",
+    "version": 1
+}
